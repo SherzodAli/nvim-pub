@@ -1,6 +1,8 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+vim.g.clipboard = "osc52"
+
 vim.opt.guicursor = ""
 vim.opt.termguicolors = true
 
