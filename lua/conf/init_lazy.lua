@@ -23,7 +23,7 @@ require("lazy").setup({
 	spec = {
 		{ import = "conf.plugins" },
 	},
-	checker = { enabled = true },
+	checker = { enabled = true, notify = false },
 }, {
 	ui = {
 		icons = vim.g.have_nerd_font and {} or {
