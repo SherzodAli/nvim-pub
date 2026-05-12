@@ -4,6 +4,7 @@ chmod 700 ~/.ssh
 touch ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys
 
+# get public version of your key by `ssh-keygen -y -f ~/.ssh/id_rsa`
 # echo 'ssh-ed25519 AAAA...your-public-key...' >> ~/.ssh/authorized_keys
 
 # sudo nano /etc/ssh/sshd_config (/etc/ssh/sshd_config.d/* - check if not overwritten)
